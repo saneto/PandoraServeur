@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FAB21F3B-D3F0-4B98-A1A2-0A8A5B0307C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66BBC71E-AA6D-41C3-B816-C32E3BAD4CF8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ServeurPandora", "src\ServeurPandora\ServeurPandora.xproj", "{D9F1AB28-34F7-4362-911E-BD4F9B2BD4B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9F1AB28-34F7-4362-911E-BD4F9B2BD4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F1AB28-34F7-4362-911E-BD4F9B2BD4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F1AB28-34F7-4362-911E-BD4F9B2BD4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F1AB28-34F7-4362-911E-BD4F9B2BD4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9F1AB28-34F7-4362-911E-BD4F9B2BD4B1} = {FAB21F3B-D3F0-4B98-A1A2-0A8A5B0307C1}
+	EndGlobalSection
+EndGlobal
